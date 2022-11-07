@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-night" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9e9d95a6f6018c19ada36ce52b49f049ebf3b89cd956de2042d99b0f5c0d2a9c
+  sha256: 9aa810a4b86d4bf797ae65638745d0dad87fe58ed10be03d14455e5cae2ac623
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/martinRenou/jupyterlab-night
-  summary: 'JupyterLab dark theme inspired by the Github dark theme'
+  summary: JupyterLab dark theme inspired by the Github dark theme
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
