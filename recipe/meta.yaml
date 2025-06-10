@@ -17,10 +17,11 @@ build:
 requirements:
   host:
     - python {{ python_min }}
+    - hatchling >=1.5.0
+    - jupyterlab >=4.0.0,<5
+    - hatch-jupyter-builder >=0.5
+    - hatch-nodejs-version >=0.3.2
     - pip
-    - jupyterlab
-    - yarn
-    - jupyter-packaging
   run:
     - python >={{ python_min }}
 
@@ -32,12 +33,12 @@ test:
     - pip check
 
 about:
-  home: https://github.com/martinRenou/jupyterlab-night
+  home: https://github.com/jupyterlab-contrib/jupyterlab-night
   summary: JupyterLab dark theme inspired by the Github dark theme
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  dev_url: https://github.com/martinRenou/jupyterlab-night
+  dev_url: https://github.com/jupyterlab-contrib/jupyterlab-night
 
 extra:
   recipe-maintainers:
