@@ -3,13 +3,13 @@ About jupyterlab-night-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab-night-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/martinRenou/jupyterlab-night
+Home: https://github.com/jupyterlab-contrib/jupyterlab-night
 
 Package license: BSD-3-Clause
 
 Summary: JupyterLab dark theme inspired by the Github dark theme
 
-Development: https://github.com/martinRenou/jupyterlab-night
+Development: https://github.com/jupyterlab-contrib/jupyterlab-night
 
 Current build status
 ====================
@@ -145,5 +145,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@jtpio](https://github.com/jtpio/)
 * [@martinRenou](https://github.com/martinRenou/)
 
