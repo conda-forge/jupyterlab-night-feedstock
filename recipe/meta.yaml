@@ -1,5 +1,5 @@
 {% set name = "jupyterlab-night" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8d41f2d443a84bfcd2ce29b5476c5faf93b2e3b49663f8c1ebeca2b33f431d01
+  sha256: 347e3397d4b38c475fa11cd1a8c34a4ca99266448c726f8958c90626c292c188
 
 build:
   noarch: python
